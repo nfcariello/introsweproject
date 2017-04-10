@@ -9,17 +9,18 @@ module.exports = {
 
   attributes: {
 
-    [userID : { type: 'int,' },
+    userID : { type: 'int',
+                autoIncrement:true
+              },
 
-    firstName : { type: 'string,' },
+    firstName : { type: 'string' },
 
-    lastName : { type: 'string,' },
+    lastName : { type: 'string' },
 
-    email : { type: 'string,' },
+    email : { type: 'string' },
 
-    events : { type: '[],' },
+    events : { type: '[]' },
 
-    phoneNumber : { type: 'string]' }
+    phoneNumber : { type: 'string' }
   }
 };
-
