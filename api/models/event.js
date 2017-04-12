@@ -9,22 +9,38 @@ module.exports = {
 
   attributes: {
 
-    eventID : { type: 'integer',
-                autoIncrement: true,
-                unique: true},
+    eventID : {
+        type: 'integer',
+        autoIncrement: true,
+        unique: true
+    },
 
-    eventTitle : { type: 'string' },
+    eventTitle : {
+        type: 'string'
+    },
 
-    ownerID : { type: 'integer' },
+    ownerID : {
+        type: 'integer'
+    },
 
-    startDateTime : { type: 'datetime' },
+    startDateTime : {
+        type: 'datetime'
+    },
 
-    endDateTime : { type: 'datetime' },
+    endDateTime : {
+        type: 'datetime'
+    },
 
-    desc : { type: 'object' },
+    desc : {
+        type: 'object'
+    },
 
-    notes : { type: 'object' },
+    notes : {
+        type: 'object'
+    },
 
-    busy : { type: 'boolean' }
+    busy : {
+        type: 'boolean'
+    }
   }
 };
