@@ -1,8 +1,8 @@
 {
   "name": "Schedulr",
   "private": true,
-  "version": "0.0.0",
-  "description": "a Sails application",
+  "version": "0.0.1",
+  "description": "A task/schedule management system",
   "keywords": [],
   "dependencies": {
     "ejs": "2.3.4",
@@ -19,6 +19,7 @@
     "grunt-sails-linker": "~0.10.1",
     "grunt-sync": "0.5.2",
     "include-all": "^1.0.0",
+    "jade": "^1.11.0",
     "rc": "1.0.1",
     "sails": "~0.12.9",
     "sails-disk": "~0.10.9"
@@ -32,6 +33,6 @@
     "type": "git",
     "url": "git://github.com/tom/Schedulr.git"
   },
-  "author": "tom",
+  "author": "Tom Lavenziano",
   "license": ""
 }
