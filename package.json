@@ -18,12 +18,14 @@
     "grunt-contrib-watch": "1.0.0",
     "grunt-sails-linker": "~0.10.1",
     "grunt-sync": "0.5.2",
-    "mongodb": "~2.0",
     "include-all": "^1.0.0",
     "jade": "^1.11.0",
+    "mongodb": "~2.0",
+    "pug": "^2.0.0-beta11",
     "rc": "1.0.1",
     "sails": "~0.12.9",
-    "sails-disk": "~0.10.9"
+    "sails-disk": "~0.10.9",
+    "sails-mongo": "^0.12.2"
   },
   "scripts": {
     "debug": "node debug app.js",
